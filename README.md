@@ -80,4 +80,4 @@ print(data.shape)
 pyplot.imshow(data)
 pyplot.show()
 ```
-For details chekc <a href="#">Check This Code</a>
+For details chekc <a href="https://github.com/Jugal-Chanda/Convert-image-to-an-array-for-making-dataset/blob/master/ImgToData.ipynb">Check This Code</a>
