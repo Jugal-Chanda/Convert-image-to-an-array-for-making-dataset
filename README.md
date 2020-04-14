@@ -1,4 +1,4 @@
-<h1>convert  Image to an array for making dataset</h1>
+<h1>Convert  image to an array for making dataset</h1>
 
 <h3>In this project at first we see how to load an image and show this using pillow.</h3> 
 
