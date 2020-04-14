@@ -12,6 +12,7 @@ from PIL import Image
 img = Image.open('opera_house.jpg')
 ```
 <h4>Summerize image details</h4>
+
 ```
 print(img.format)
 print(img.mode)
@@ -24,6 +25,7 @@ print(img.size)
 The asarray() function is used to convert an given input to an array. Input data, in any form that can be converted to an array. This includes lists, lists of tuples, tuples, tuples of tuples, tuples of lists and ndarrays.</p>
 <br>
 <p>Now we pass img object to the asarray() function and it returns an array.</p>
+
 ```
 #import library
 from numpy import asarray
@@ -33,15 +35,18 @@ from numpy import asarray
 data = asarray(img)
 ```
 <h5>We can see the type of this array using python python built in type() function and it returns the type of this array</h5>
+
 ```
 type(data)
 ```
 <h5>Check the shape of this array</h5>
+
 ```
 print(data.shape)
 ```
 
 <h5>Now we see also how to back mean how to create Pillow object from this numpy array<h5>
+
 ```
 img2 = Image.fromarray(data)
 img2
@@ -50,6 +55,7 @@ img2
 <p>We can also do this by Matplotlib with pillow installed.</p>
 <p>We can load image with imread() function. </p>
 <p>At first we import image and pyplot from matplotlib</p>
+
 
 ```
 #Load libraries of matplotlib
@@ -69,6 +75,7 @@ print(data.dtype)
 print(data.shape)
 ```
 <p>Now we show the image </p>
+
 ```
 pyplot.imshow(data)
 pyplot.show()
